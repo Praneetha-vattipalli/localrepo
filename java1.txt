@@ -5,5 +5,6 @@ class RandomGuess
    {
       JOptionPane.showInputDialog(null, "enter the a number between 1 and 10:");
       JOptionPane.showInputDialog(null, " the number is" +(1 +(int)(math.random()  * 10));
+system.out.println(:praneetha");
 }
 }
