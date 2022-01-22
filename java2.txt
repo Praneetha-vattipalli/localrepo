@@ -1,0 +1,45 @@
+public class Main
+{
+   public static void main(String[] args) {
+       System.out.println("Sammy's makes it fun in the sun.");
+   }
+}
+secound program
+public class Main
+{
+   public static void main(String[] args) {
+   String str="Sammy's makes it fun in the sun.";
+   int i,j;
+   for(i=0;i<7;i++)
+   {
+   if(i==0||i==6)//for the first line and last line
+   {
+   for(j=0;j<20;j++)//print 40 characters i.e 20 'Ss'
+   System.out.print("Ss");
+   System.out.println();
+   }
+   else if(i==2)//Third line we print String
+   {
+   System.out.print("Ss");//first print one Ss
+   for(j=1;j<3;j++)//print 2 spaces
+   System.out.print(" ");
+   System.out.print(str);//print string
+   //we used 4 characters for "Ss" and 2 " "
+   j=4+str.length();//so 4+length of string
+   while(j++<38)//print spaces for remaining places
+   System.out.print(" ");
+   System.out.print("Ss\n");//last two characters as Ss
+   }
+   else//for remaining lines
+   {
+   System.out.print("Ss");//starting Ss
+   for(j=0;j<36;j++)
+   System.out.print(" ");//and then spaces
+   System.out.print("Ss");//last Ss
+   System.out.println();
+   }
+   }
+  
+       System.out.println();
+   }
+}
